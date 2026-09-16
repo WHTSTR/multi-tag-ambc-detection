@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated training and evaluation artifacts
+checkpoints/
+runs/
+*.pt
+*.pth
+*.log
+*.npz
+*.png
+*.pdf
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
